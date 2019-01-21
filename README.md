@@ -4,7 +4,7 @@
 
 API testing using Frisby.js - _One of the easiest REST API Testing Framework._
 
-Frisby.js uses Jasmine style assertion syntax, and uses [Jest](https://jestjs.io/) to run tests. I have used jest-stare to generate the test results.
+Frisby.js uses Jasmine style assertion syntax, and uses [Jest](https://jestjs.io/) to run tests. I have used [jest-stare](https://www.npmjs.com/package/jest-stare) to generate the test results.
 
 ### Environment Setup
 
@@ -31,14 +31,13 @@ $ yarn install
 ```
 $ yarn jest
 ```
-* To generate test report, type
+* To generate test report (this is configured in `package.json`), type
 ```
 $ yarn jest --reporters jest-stare
 ```
-This is configired in `package.json`
 
 ### Docs & further reading
 
 * https://www.frisbyjs.com/
 * https://jestjs.io/
-* https://www.npmjs.com/package/jest-stare
+* https://github.com/dkelosky/jest-stare
