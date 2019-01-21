@@ -6,9 +6,13 @@
   "license": "MIT",
   "devDependencies": {
     "frisby": "^2.1.1",
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "jest-stare": "^1.11.0"
   },
   "scripts": {
     "test": "jest"
+  },
+  "jest-stare": {
+    "reporters": [ "default", "jest-stare" ]
   }
 }
