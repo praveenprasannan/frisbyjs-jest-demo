@@ -31,7 +31,7 @@ $ yarn install
 ```
 $ yarn jest
 ```
-* To generate test report (this is configured in `package.json`), type
+* To generate a test report after the test run (this is configured in `package.json`), type
 ```
 $ yarn jest --reporters jest-stare
 ```
