@@ -1,0 +1,14 @@
+{
+  "name": "frisbyjs-jest-demo",
+  "version": "1.0.0",
+  "description": "Example using FrisbyJS to automate APIs",
+  "repository": "https://github.com/praveenprasannan/frisbyjs-jest-demo.git",
+  "license": "MIT",
+  "devDependencies": {
+    "frisby": "^2.1.1",
+    "jest": "^23.6.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
