@@ -31,10 +31,11 @@ $ yarn install
 ```
 $ yarn jest
 ```
-* To generate a test report after the test run (this is configured in `package.json`), type
+* To generate a test report after the test run (_this is configured in `package.json`_), type
 ```
 $ yarn jest --reporters jest-stare
 ```
+This will create a folder `jest-stare` inside the project root directory and inside the folder, a test report will be created with a name `index.html`
 
 ### Docs & further reading
 
