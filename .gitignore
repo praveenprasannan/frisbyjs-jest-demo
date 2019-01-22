@@ -10,4 +10,4 @@ node_modules/
 jest-stare/
 
 # Others
-
+.DS_Store
